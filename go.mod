@@ -1,6 +1,4 @@
-// This is a generated file. Do not edit directly.
-
-module k8s.io/kubectl
+module github.com/suhasgummanirmata/kubectl
 
 go 1.16
 
@@ -14,7 +12,7 @@ require (
 	github.com/exponent-io/jsonpath v0.0.0-20151013193312-d6023ce2651d
 	github.com/fatih/camelcase v1.0.0
 	github.com/fvbommel/sortorder v1.0.1
-	github.com/golangplus/testing v0.0.0-20180327235837-af21d9c3145e // indirect
+	github.com/google/gnostic v0.6.9
 	github.com/google/go-cmp v0.5.5
 	github.com/googleapis/gnostic v0.5.5
 	github.com/jonboulle/clockwork v0.2.2
@@ -24,7 +22,6 @@ require (
 	github.com/moby/term v0.0.0-20210610120745-9d4ed1856297
 	github.com/onsi/ginkgo v1.14.0
 	github.com/onsi/gomega v1.10.1
-	github.com/opencontainers/go-digest v1.0.0 // indirect
 	github.com/russross/blackfriday v1.5.2
 	github.com/spf13/cobra v1.2.1
 	github.com/spf13/pflag v1.0.5
@@ -39,6 +36,7 @@ require (
 	k8s.io/component-helpers v0.23.5
 	k8s.io/klog/v2 v2.30.0
 	k8s.io/kube-openapi v0.0.0-20211115234752-e816edb12b65
+	k8s.io/kubectl v0.23.5
 	k8s.io/metrics v0.23.5
 	k8s.io/utils v0.0.0-20211116205334-6203023598ed
 	sigs.k8s.io/kustomize/kustomize/v4 v4.4.1
